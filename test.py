@@ -2,7 +2,7 @@ import json
 from predict import predict_response
 
 # Load the JSON file
-with open('movieReviewsTest.json', 'r') as f:
+with open('data/movieReviewsTest.json', 'r') as f:
     data = json.load(f)
 
 # Initialize counters
