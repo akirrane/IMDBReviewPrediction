@@ -29,7 +29,7 @@ class ChatDataset(Dataset):
         return self.n_samples
 
 # Open JSON file containing data, read through, and save data to dictionary
-with open('movieReviewsTrain.json', 'r') as f:
+with open('data/movieReviewsTrain.json', 'r') as f:
     data = json.load(f)
 
 # Cleaning, tokenizing, lemmatizing, and creating vocab
