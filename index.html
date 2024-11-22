@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Review Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Review Sentiment Analysis</h1>
+        <div id="response" class="fade-in"></div>
+        <textarea id="review-input" placeholder="Enter your movie review here..."></textarea>
+        <button id="submit-btn">Submit Review</button>
+    </div>
+
+    <!-- Add the footer text here -->
+    <div class="footer-text">
+        This model was able to achieve an 86% accuracy score on the test data.
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
