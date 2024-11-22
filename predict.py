@@ -6,7 +6,7 @@ from model import NeuralNetwork
 from nltk_funcs import clean_tokenize, bag_of_words
 
 # Open data file, save data to dictionary
-with open('movieReviewsTest.json', 'r') as f:
+with open('data/movieReviewsTest.json', 'r') as f:
     data = json.load(f)
 
 # Load the trained model parameters from the file
