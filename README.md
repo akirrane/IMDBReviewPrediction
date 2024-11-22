@@ -22,6 +22,10 @@ From here you are able to run the predict.py file, which is a fully functioning 
 ```
 >>> python predict.py
 ```
+To run the model on the test data set, run the following command, which will classify the reviews ad display statistics.
+```
+>>> python test.py
+```
 If you want to utilize the frontend for a better user experience, run the app.py file to start the flask app in the background. 
 ```
 >>> python app.py
